@@ -126,10 +126,70 @@ namespace FirstProgram
 /*            double Num = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(Num + "0");*/
 
-           
-            
-             
-            
+            // -------------------------------------------------------------------
+
+            /*            Console.WriteLine("Введите число больше 5 и меньше 10");
+                        double Nasvay = Convert.ToDouble(Console.ReadLine());
+
+                        if (Nasvay > 5 && Nasvay < 10) 
+                        {
+                            Console.WriteLine("Число больше пяти и меньше десяти");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Число не входит в диапазон");
+                            Console.ReadKey
+                                ();
+                        }*/
+
+            /*            Console.WriteLine("Введите сумму вклада");
+                        double Vklad = Convert.ToDouble(Console.ReadLine());
+                        if (Vklad < 100)
+                        {
+                            Vklad += Vklad * 0.05;
+                        }
+                        else if (Vklad <= 200)
+                        {
+                            Vklad += Vklad * 0.07;
+                        }
+                        else
+                        {
+                            Vklad += Vklad * 0.1;
+                        }
+                        Vklad += Vklad * 0.15;
+                        Console.WriteLine($"Сумма вклада после начисления процентов: {Vklad}");
+                        Console.ReadKey();*/
+
+            //10 --------------------------------------------------------------------------------
+
+            /*Console.Write("Введите значение выражений: ");
+            double x1 = Convert.ToDouble(Console.ReadLine());
+            double y1 = Convert.ToDouble(Console.ReadLine());
+            double x2 = Convert.ToDouble(Console.ReadLine());
+            double y2 = Convert.ToDouble(Console.ReadLine());
+            double x3 = Convert.ToDouble(Console.ReadLine());
+            double y3 = Convert.ToDouble(Console.ReadLine());
+
+            double A = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2));
+            double B = Math.Sqrt(Math.Pow(x2 - x3, 2) + Math.Pow(y2 - y3, 2));
+            double C = Math.Sqrt(Math.Pow(x3 - x1, 2) + Math.Pow(y3 - y1, 2));
+            double P = A + B + C;
+            double Formula1 = Math.Sqrt((P / 2 * (P / 2 - A) * (P / 2 - B) * (P / 2 - C)));
+
+            Console.WriteLine(Formula1);*/
+
+            //8 ---------------------------------------------------------------------------
+
+            /* Console.WriteLine("Введите время в минутах");
+             double Hours = Convert.ToDouble(Console.ReadLine());
+             Hours = Hours / 60;
+             int Hours1 = (int)Hours;
+             double Minutes = (Hours - (int)Hours) * 60;
+             Console.WriteLine($"Часы: {Hours1} Минуты {Minutes}");
+            */
+
+
+
 
         }
     }
